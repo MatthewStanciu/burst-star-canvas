@@ -32,7 +32,7 @@ type Point = {
 const lines: Point[][] = [];
 const numLines = 8; // Number of lines
 let lineLength = scale * 100; // Length of each line
-const starColor = "#ff5852";
+const starColor = "#E6002A";
 const centerX = Math.round(canvas.width / 2);
 const centerY = Math.round(canvas.height / 2);
 const pointSize = scale * (dpr === 1 ? 3 : 3.25); // Size of each square point
