@@ -182,7 +182,7 @@ function updatePoints() {
 }
 
 function animateMousePosition() {
-  const t = time * 0.005;
+  const t = time * 0.01;
   mouseX = centerX + curveRadius * Math.sin(2 * t);
   mouseY = centerY + curveRadius * Math.sin(3 * t);
   lastMouseMoveTime = Date.now();
